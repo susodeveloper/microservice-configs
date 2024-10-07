@@ -15,7 +15,6 @@ spring:
       dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: false
     generate-ddl: false
-
   config:
     import: "optional: configserver:http://localhost:7777"
 eureka:
